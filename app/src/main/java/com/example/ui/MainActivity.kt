@@ -57,7 +57,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener{
 
     private fun showTimePickerDialog(){
         val timePickerDialog = TimePickerDialog(
-            this
+            this,
                     TimePickerDialog.OnTimeSetListener{ view, hour, minute ->
                 Log.d("UI_PARTS", "$hour:$minute")
             },
