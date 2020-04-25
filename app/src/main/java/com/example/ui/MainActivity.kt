@@ -47,7 +47,7 @@ private fun showAlertDialog(){
     }
 
     // AlertDialogを作成して表示する
-val AlertDialog = alertDialogBuilder.create()
+val alertDialog = alertDialogBuilder.create()
     alertDialog.show()
 }
 }
